@@ -16,7 +16,7 @@ setup(name="rct-python",
       download_url="TODO",
       packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
       include_package_data=True,
-      keywords=['transformation', 'coordinates', 'tf', 'tf2', 'rsb'],
+      keywords=['transformation', 'coordinates', 'tf', 'tf2', 'rsb', 'openbase'],
       license="LGPLv3",
       classifiers=[
           'Development Status :: Beta',
@@ -29,4 +29,4 @@ setup(name="rct-python",
           'Topic :: Text Processing :: Markup :: XML'
       ],
       # 'Louie', 'suds', 'restlib',
-      install_requires=['pyrr', "rsb-python>=0.11", "rstconverters>=0.11"])
+      install_requires=['pyrr', "rsb-python>=0.18", "rstconverters>=0.18", "openbase-type"])

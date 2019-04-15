@@ -9,7 +9,7 @@ from rsb.converter import Converter, ProtocolBufferConverter
 
 from rct.core.Affine3d import Affine3d
 from rct.core.Transform import Transform
-from rct.proto.FrameTransform_pb2 import FrameTransform
+from openbase.type.geometry.FrameTransform_pb2 import FrameTransform
 from pyrr import Quaternion, Vector4
 
 
