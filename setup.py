@@ -29,4 +29,4 @@ setup(name="openbase-rct-python",
           'Topic :: Text Processing :: Markup :: XML'
       ],
       # 'Louie', 'suds', 'restlib',
-      install_requires=['pyrr', "rsb-python>=0.18", "rstconverters>=0.18", "openbase-type"])
+      install_requires=['pyrr', "rsb-python>=0.18", "openbase-type"])
