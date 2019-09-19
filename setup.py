@@ -6,7 +6,7 @@ version_file = os.path.realpath(__file__)
 version_file = os.path.join(version_file[:version_file.rfind("/")], "VERSION")
 version = open(version_file).read().strip()
 
-setup(name="rct-python",
+setup(name="openbase-rct-python",
       version=version,
       description="Robotics Coordinate Transform (python).",
       long_description="This library wraps the functionality of the tf2 library (originated from ROS) and supports communication over the RSB middleware. The ROS dependencies are minimised as good as possible.",
