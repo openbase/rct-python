@@ -4,6 +4,7 @@ Created on Apr 13, 2015
 @author: nkoester
 '''
 import time
+import openbase.type
 
 from rsb.converter import Converter, ProtocolBufferConverter
 
